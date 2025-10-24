@@ -1,5 +1,30 @@
-# ml_rainfall_prediction
+# 🌧️ Rainfall Prediction using Linear Regression
 
-Predicting rainfall is a vital aspect of weather forecasting, agriculture planning and water resource management. In this article, we will use the Linear regression algorithm that helps establish a relationship between two variables: one dependent (rainfall) and one or more independent variables (temperature, humidity). It tells us how many inches of rainfall we can expect.
+This project predicts rainfall based on temperature and humidity using a simple linear regression model.
 
-source of the project: https://www.geeksforgeeks.org/batch/ds-16/track/su-ds-day-32/article/MzEyODYx
+## 📊 Dataset
+- Source: [GeeksforGeeks Article](https://www.geeksforgeeks.org/ml-linear-regression-using-python/)
+- Features: Temperature, Humidity
+- Target: Rainfall (in mm)
+
+## 🧠 ML Model
+- Algorithm: Linear Regression (`sklearn.linear_model`)
+- Evaluation: R² Score, Visualization of predicted vs actual
+
+## 📈 Results
+- Achieved a good fit on synthetic data
+- Visualized predictions using `matplotlib`
+
+## 🚀 How to Run
+1. Open the notebook in Google Colab
+2. Run all cells
+3. Modify input values to test predictions
+
+## 🛠️ Tools Used
+- Python, Pandas, NumPy
+- Scikit-learn
+- Matplotlib
+
+## 📌 Author
+Madhushree Mandokar
+
